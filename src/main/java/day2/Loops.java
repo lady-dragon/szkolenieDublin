@@ -6,9 +6,8 @@ public class Loops {
 //        loopFor();
 //        iterators();
 //        loopWhile();
-        loopDoWhile();
+//        loopDoWhile();
     }
-
 
     private static void iterators() {
         int a = 0;
@@ -70,7 +69,7 @@ public class Loops {
         int a = 0;
         String s = "";
         while (a < 10) {
-            if(a == 4) {
+            if (a == 4) {
                 a++;
                 continue;
             }
@@ -86,10 +85,10 @@ public class Loops {
     private static void loopDoWhile() {
         int a = 10;
         String s = "";
-         do{
+        do {
             System.out.print(s + "a = " + a);
             s = ", ";
             a++;
-        }while (a < 10);
+        } while (a < 10);
     }
 }
