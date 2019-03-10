@@ -11,6 +11,7 @@ public class Varargs {
 
     private static int sum(int...a){
         int result = 0;
+        String s = result + "";
 
 //        for (int i =0; i<a.length;i++){
 //            result += a[i];
