@@ -14,5 +14,8 @@ public class CarMain {
 
         Car syrenka = new Car(54, "Syrenka", "kość słoniowa");
         System.out.println(syrenka);
+
+        int syrenkaId = syrenka.getId();
+        System.out.println(syrenkaId + " : " + syrenka.getName());
     }
 }

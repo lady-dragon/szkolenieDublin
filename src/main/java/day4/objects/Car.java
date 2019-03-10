@@ -30,6 +30,18 @@ public class Car {
         this.colour = colour;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
     @Override
     public String toString() {
         return "Car{" +
